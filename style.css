@@ -1,0 +1,496 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+* {
+    margin: 0;
+}
+
+
+header {
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 14px 0;
+}
+
+
+header img {
+    width: 87.57px;
+}
+
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+header p {
+    color: #fff;
+}
+
+
+main {
+    background-image: url(./images/bg-image.png);
+    margin: 0;
+    width: 1922;
+    height: 770px;
+    padding: 32px 0;
+}
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.profile p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+p span {
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    text-align: right;
+}
+
+
+
+.profile img {
+    border-radius: 999px;
+    height: 48px;
+    width: 48px;
+}
+
+
+main h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+main button {
+    background-color: #7B61FF;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border: 3px solid #7B61FF;
+    padding: 27px 24px;
+    border-radius: 12px;
+    margin: 32px 300px;
+}
+
+
+main button:hover {
+    border: 3px solid #7B61FF;
+    color: #7B61FF;
+    background: transparent;
+}
+
+
+.main {
+    width: fit-content;
+    height: fit-content;
+    padding: 190px 250px;
+    margin: 0 auto;
+}
+
+
+.sides {
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 26px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.sides ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 34px;
+    justify-content: center;
+}
+
+
+ul li {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+
+li img {
+    width: 24px;
+    height: 24px;
+}
+
+
+li hr {
+    height: 46px;
+    width: 1px;
+    background-color: #E5E5E5;
+    border: none;
+}
+
+
+.main_1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #161414;
+    margin-top: 0;
+    margin-bottom: 64px;
+    display: inline-block;
+}
+
+
+.cards {
+    display: flex;
+    gap: 32px;
+    overflow: auto;
+}
+
+
+.card img {
+    width: 200px;
+    height: 180px;
+}
+
+
+.card h1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.card p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #979797;
+}
+
+
+.card .image {
+    width: 316px;
+    height: 380px;
+}
+
+
+.container {
+    padding: 0 200px;
+}
+
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4px 0 64px 0;
+}
+
+
+.text h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #161414;
+}
+
+
+.text button{
+    padding: 12px 10px;
+    border: none;
+    background-color: #F6F4FF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7B61FF;
+}
+
+
+.card .feedback {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+.feedback p {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.feedback img{
+    width: 16px;
+    height: 16px;
+}
+
+
+article {
+    display: flex;
+    gap: 32px;
+    width: 1000px;
+}
+
+
+
+.art_text {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+.art_text h1 {
+    font-size: 24px;
+    font-weight: 600;
+    width: 316px;
+}
+
+
+.art_text p {
+    width: 316px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
+}
+
+
+.activ {
+    display: flex;
+    gap: 24px;
+    width: 450px;
+}
+
+
+.articles {
+    display: flex;
+    gap: 32px;
+    overflow: auto;
+    width: 100%;
+}
+
+
+
+.abtus_txt {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.abtus_txt h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #161414;
+}
+
+
+.abtus_txt p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5B5B5B;
+    width: 480px;
+}
+
+
+.abtus_txt button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: fit-content;
+    color: #7B61FF;
+    border: none;
+    background-color: #F6F4FF;
+    border-radius: 12px;
+}
+
+
+.about_us {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 32px;
+    margin: 120px auto;
+}
+
+
+footer {
+    background-color: #F9F9F9;
+    display: flex;
+}
+
+
+.cmpny {
+    width: 354.5px;
+}
+
+
+.cmpny p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #979797;
+    width: 354.5px;
+    margin: 16px 0 32px 0;
+}
+
+
+.social_media {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+
+.abt_cm_spt ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.main_li {
+    color: #161414;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.abt_cm_spt ul .li {
+    color: #979797;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.email {
+    margin-left: 64px;
+}
+
+
+.abt_cm_spt {
+    display: flex;
+    gap: 64px;
+}
+
+
+.footer {
+    display: flex;
+    margin: 120px auto;
+}
+
+
+.email h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #161414;
+    width: 388px;
+}
+
+
+.mail img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 65px 10px 16px;
+    background-color: #fff;
+    border-radius: 12px;
+    width: fit-content;
+}
+
+
+.mail_txt h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #979797;
+}
+
+
+.main_btn {
+    border: none;
+    background-color: #7B61FF;
+    padding: 28px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+
+.main_btn:hover {
+    color: #7B61FF;
+    border: 1px solid #7B61FF;
+    background-color: transparent;
+}
+
+
+.mailwbtn {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+
+.mailwbtn button {
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.mail_txt input {
+    width: 190px;
+    border: none;
+    padding: 10px;
+    color: #161414;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.search {
+    padding: 18px;
+    border: 1px solid #7B61FF;
+    background-color: #7B61FF;
+    color: #fff;
+}
+
+
+.search:hover {
+    background-color: transparent;
+    border: 1px solid #7B61FF;
+    color: #7B61FF;
+}
